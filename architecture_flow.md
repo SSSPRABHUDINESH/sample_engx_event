@@ -19,7 +19,8 @@ Here is your complete presentation script and architectural walkthrough. You can
 #### **1. Actors & Identity Layer (Authentication & RBAC)**
 
 * **Actors:** Patient/Caregiver, Triage Nurse/Receptionist, Attending Physician/Specialist, and Operations & Bed Manager.
-* **Authentication Flow:**
+
+#### **Authentication Flow:**
 * Patients log in via **Patient Authentication Gateway** (OTP, Social Login, Portal Credentials).
 * Staff members authenticate via **Enterprise Identity Provider** (SSO, SAML, Enterprise MFA).
 
